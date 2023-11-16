@@ -1,6 +1,6 @@
-// To find the character count in a string
+// To Find The Character Count In A String
 
-let str = "satabdimahanta";\
+let str = "satabdimahanta";
 
 function occuranceCntCheck(data){
 if(data.length > 0 && !Array.isArray(data)){
@@ -14,7 +14,7 @@ if(data.length > 0 && !Array.isArray(data)){
     	if(cnt > 0){
       	console.log(current +" comes: " +cnt +" times")
       }
-    	current = sortedData[i];
+      current = sortedData[i];
       cnt = 1;
     }else{
     	cnt++
